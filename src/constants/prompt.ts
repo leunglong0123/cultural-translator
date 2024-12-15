@@ -51,9 +51,6 @@ export const DEFAULT_PROMPT = {
           "Are you looking for books, movies, events, activities, or something else?"
           "If your are looking for activities, do you prefer indoor or outdoor?"
   
-          5. Automatic Categorization of Cultural Content
-          No need ask, just simply annotate the image or scan the text to decide which cultures the object belongs to.
-  
           General Rules:
           If the user’s input is ambiguous or incomplete, ask clarifying questions to gather the necessary information.
           Always tailor responses to the user’s stated preferences and goals.

@@ -1,10 +1,10 @@
 import { useState } from "react"
-import GroundingMetadata from "@/components/GroundingMetadata"
+import GroundingMetadata, { GroundingMetadataProps } from "@/components/GroundingMetadata"
 
 const Home = () => {
-  const [messages, setMessages] = useState<{ role: string; text: string; groundingMetadata?: any; timestamp?: string; showReferences?: boolean }[]>(
-    []
-  )
+  const [messages, setMessages] = useState<
+    { role: string; text: string; groundingMetadata?: GroundingMetadataProps; timestamp?: string; showReferences?: boolean }[]
+  >([])
   const [userInput, setUserInput] = useState("")
   const [loading, setLoading] = useState(false)
 

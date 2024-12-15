@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 
-interface GroundingChunk {
+export interface GroundingChunk {
   retrievedContext: {
     uri: string
     title: string
@@ -9,7 +9,7 @@ interface GroundingChunk {
   confidenceScores?: number[]
 }
 
-interface GroundingMetadataProps {
+export interface GroundingMetadataProps {
   groundingChunks: GroundingChunk[]
 }
 
